@@ -13,6 +13,7 @@
 }
 .loader-container svg{
   position: absolute;
+  margin-bottom: 50px;
 }
 
 .loader-dog {

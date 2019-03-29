@@ -103,6 +103,10 @@
             if(nowSlide >= itemSlide.length) {nowSlide = 0;}
         },delay);
     });
+	
+	const rollSound = new Audio("./audio/dog.wav");
+	$('#scottie').click(e => rollSound.play());
+	
 
 
 })(jQuery);
