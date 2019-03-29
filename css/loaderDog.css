@@ -30,4 +30,21 @@ body {
   margin: 0;
   overflow: hidden;
   padding: 0;
+  height: 100%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ SM ]*/
+@media (max-width: 576px) {
+  .loader-container {width: 250px; height: 250px;}
+  
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ SSM ]*/
+@media (max-width: 480px) {
+  .loader-container {width: 150px; height: 150px;}
+  /*---------------------------------------------*/
+
 }
