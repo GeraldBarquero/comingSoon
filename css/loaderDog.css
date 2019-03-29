@@ -9,11 +9,11 @@
   position: relative;
   height: 300px;
   width: 300px;
+  margin-bottom: 50px;
   /* margin: 100px auto 0; */
 }
 .loader-container svg{
   position: absolute;
-  margin-bottom: 50px;
 }
 
 .loader-dog {
@@ -32,15 +32,13 @@ body {
   overflow: hidden;
   padding: 0;
   height: 100%;
-}
-
-.page-header {
   @supports (-webkit-appearance:none) {
     .os-android & {
       min-height: calc(100vh - 56px);
     }
   }
-} 
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ SM ]*/
 @media (max-width: 576px) {
