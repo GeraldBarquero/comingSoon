@@ -390,7 +390,7 @@ Primary use:
   .l1-txt2 {font-size: 60px;}
   .wsize1 {width: 75px;}
   .p-l-35 { padding-left: 20px; }
-  .loader-container {width: 250px !important;}
+  .loader-container {width: 250px !important; height: 250px !important;}
   /*---------------------------------------------*/
   .respon1 {
     font-size: 45px;
@@ -420,6 +420,9 @@ Primary use:
 
   .w-full-ssm {width: 100%;}
   .l1-txt2 {font-size: 40px;}
+  .wsize1 {width: 60px;}
+  .p-l-35 { padding-left: 15px; }
+  .loader-container {width: 150px !important; height: 150px !important;}
   /*---------------------------------------------*/
 
 }
