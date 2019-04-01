@@ -104,7 +104,7 @@
 	
 	const rollSound = new Audio("./audio/dog.wav");
   $('#scottie').click(e => rollSound.play());
-  
+
   $('.cd100').countdown100({
     /*Set Endtime here*/
     /*Endtime must be > current time*/
@@ -125,4 +125,4 @@
 	
 
 
-})(jQuery);
+});
