@@ -1,12 +1,10 @@
 
 (function ($) {
     "use strict";
-
     var svg = document.getElementById("scottie");
     var s = Snap(svg);
 
     var path = Snap.select('.tail');
-    console.log(Snap.select(".tail"));
     var head = Snap.select('.head');
     var leftEar = Snap.select('.left-ear');
     var rightEar = Snap.select('.right-ear');
@@ -105,7 +103,25 @@
     });
 	
 	const rollSound = new Audio("./audio/dog.wav");
-	$('#scottie').click(e => rollSound.play());
+  $('#scottie').click(e => rollSound.play());
+  
+  $('.cd100').countdown100({
+    /*Set Endtime here*/
+    /*Endtime must be > current time*/
+    endtimeYear: 2019,
+    endtimeMonth: 3,
+    endtimeDate: 30,
+    endtimeHours: 15,
+    endtimeMinutes: 0,
+    endtimeSeconds: 0,
+    timeZone: "America/Costa_Rica"
+    // ex:  timeZone: "America/New_York"
+    //go to " http://momentjs.com/timezone/ " to get timezone
+  });
+  
+  $('.js-tilt').tilt({
+    scale: 1.1
+  })
 	
 
 

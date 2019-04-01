@@ -38,6 +38,18 @@ body {
     }
   }
 }
+#parteNegra {
+  fill:#010101;
+  fill-rule:evenodd;
+}
+#parteBlanca{
+  fill:#fff;
+  fill-rule:evenodd;
+}
+#parteVerde {
+  fill:#8cbd44;
+  fill-rule:evenodd;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ SM ]*/
