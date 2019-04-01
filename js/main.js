@@ -109,7 +109,7 @@
     /*Set Endtime here*/
     /*Endtime must be > current time*/
     endtimeYear: 2019,
-    endtimeMonth: 3,
+    endtimeMonth: 4,
     endtimeDate: 30,
     endtimeHours: 15,
     endtimeMinutes: 0,
