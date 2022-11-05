@@ -102,16 +102,16 @@
         },delay);
     });
 	
-	const rollSound = new Audio("./audio/dog.wav");
+	const rollSound = new Audio("./source/audio/dog.wav");
   $('#scottie').click(e => rollSound.play());
 
   $('.cd100').countdown100({
     /*Set Endtime here*/
     /*Endtime must be > current time*/
-    endtimeYear: 2019,
-    endtimeMonth: 4,
-    endtimeDate: 30,
-    endtimeHours: 15,
+    endtimeYear: 2022,
+    endtimeMonth: 11,
+    endtimeDate: 7,
+    endtimeHours: 18,
     endtimeMinutes: 0,
     endtimeSeconds: 0,
     timeZone: "America/Costa_Rica"
