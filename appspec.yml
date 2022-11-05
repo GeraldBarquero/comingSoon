@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+  - source: /index.html
+    destination: /var/www/comingsoon/
+  - source: source
+    destination: /var/www/comingsoon/source
+hooks:
+  BeforeInstall:
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
+      runas: root
