@@ -6,7 +6,7 @@ files:
   - source: source
     destination: /var/www/comingsoon/source
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/start_server
       timeout: 300
       runas: root
